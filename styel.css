@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body-background{
+    background-color: #6150FF;
+    display: flex;
+    justify-content: center;
+    padding: 7vh;
+}
+.box{
+    background-color: white;
+    height: 84vh;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.72);
+}
+.developer >.chromesvg{
+    color: white;
+    text-align: center;
+    width: 1.6rem;
+    height: 1.7rem;
+    background-color: #6150FF;
+    border-radius: 0.4rem;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 100%;
+}
+.nav-elements{
+
+    gap: 1rem;
+    flex: 1;
+    list-style: none; 
+}
+.nav-elements > li {
+    width: 4rem;
+    text-align: center;
+    border: white solid 1px;
+    border-radius: 0.7rem;
+}
+.nav-elements > li > a{
+    color: black;
+    text-decoration: none;
+}
+.hover:hover{
+    color: #6150FF;
+    background: #0c0b0b1c;
+}
+div >.contact{ 
+    border-radius: 0.4rem;
+    background-color: #6150FF;
+    width: 4rem;
+    margin-bottom: 0.7rem;
+}
+.contact>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+.contact>a:hover{
+    color: black;
+}
+.bgcolor{
+    background-color:  #F3F3F3;
+}
+.solid-line{
+    color: #6150FF;
+    width: 4rem;
+}
+.title{
+    font-family: serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.title>span{
+    color: #6150FF;
+    font-size: xx-large;
+}
+.info{
+  font-family: serif;
+}
+.myimg{
+    height: 87%;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.buttons>button{
+   font-size: larger;
+   font-weight: 400;
+   color: white; 
+   background-color: #6150FF;
+   border: 1px solid #6150FF;
+   border-radius: 0.4rem;
+   width: 7rem;
+}
+.hover2:hover{
+    background-color: white;
+    border: white 1px solid;
+    color: #6150FF;
+}
+.buttons>.portfolio{
+    background-color: white;
+    border: white 1px solid;
+    color: #6150FF;
+}
+.hover3:hover{
+    color: white; 
+   background-color: #6150FF;
+   border: 1px solid #6150FF;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gif >video{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;  
+}
+.innovation > h2{
+    margin: 1rem;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #6150FF;
+}
+.bgwhite{
+    background-color: white;
+}
+@media(max-width:580px) {
+    .box{
+        height: 87vh;
+        width: 90%;
+    }  
+}
+@media (min-width: 800px) and (max-width: 993px) {
+    .box {
+        height: 91vh;
+        width: 90%;
+    }
+}
+
+
