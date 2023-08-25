@@ -152,6 +152,9 @@ div >.contact{
 .bgwhite{
     background-color: white;
 }
+.innovation  p{
+    text-align : center;
+}
 @media(max-width:580px) {
     .box{
         height: 87vh;
